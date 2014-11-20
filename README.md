@@ -5,22 +5,25 @@ he objective of this project is to develop a process to extract and transform th
 The end product of the process i.e. the tidy data has to follow the principles of tidy data laid out by Hadley Wickham.
 The available dataset was collected during the experiment "Human Activity Recognition Using Smartphones".
 During the experiment the data was collected from all the subjects divided into two groups "training" and "test". 
-Several datasets were made available in a zip file. Following are the details of the available datasets:
+Several datasets were made available in a zip file.
+### Available data
+Following are the details of the available datasets:
 link to locations: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-+Root folder : UCI HAR Dataset
++	Root folder : UCI HAR Dataset
 -			  README.TXT (Description of experiment and data available)
 -			  features.txt (List of all variables names available )
 -			  freatures_info.txt (High level description of all the measurements/variables)
 -			  activity_labels.txt (Descriptive names of activities performed by the subjects during the experiment)
-+subfolders: 
--test
++	subfolders: 
+-	test
 *		X_test.txt (Measurements collected from subjects in test group)
 *		y_test.txt (activities performed by subjects in test group)
 *		subject_test.txt (observed subjects in test group)
--train
+-	train
 *		X_train.txt (Measurements collected from subjects in training group)
 *		y_train.txt (activities performed by subjects in training group)
 *		subject_train.txt (observed subjects in training group)  
+
 ---
 The program developed in a file run_analysis.R.
 Prerequisite: Package("dplyr") must be installed for this program to achieve it's objective.
