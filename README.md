@@ -29,7 +29,7 @@ The program was developed in a R script file run_analysis.R.
     Prerequisite: Package("dplyr") must be installed for this program to achieve it's objective.
 
 This program extracts and transforms the data from experiment and creates one tidy dataset (tidy_data.csv) in the working directory.
-This program has five main parts: 
+    This program has five main parts: 
 1.    Downloads and read all the required files into data frames
 2.    Consolidates Data
 	-           Consolidate X_test.txt and X_train.txt
