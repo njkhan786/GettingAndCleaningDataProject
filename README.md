@@ -25,23 +25,23 @@ link to locations: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles
 		*		subject_train.txt (observed subjects in training group)  
 
 ---
-The program developed in a file run_analysis.R.
-Prerequisite: Package("dplyr") must be installed for this program to achieve it's objective.
+    The program was developed in a R script file run_analysis.R.
+    Prerequisite: Package("dplyr") must be installed for this program to achieve it's objective.
 		
-This program extracts and transforms the data from experiment and creates one tidy dataset (tidy_data.csv) in the working directory.
-  This program has five main parts: 
-1. Downloads and read all the required files into data frames
-2. Consolidates Data
+    This program extracts and transforms the data from experiment and creates one tidy dataset (tidy_data.csv) in the working directory.
+    This program has five main parts: 
+1.    Downloads and read all the required files into data frames
+2.    Consolidates Data
 	-           Consolidate X_test.txt and X_train.txt
 	-            sets the variable names
 	-            Consolidate y_test.txt and y_train.txt
 	-            Consolidate subject_test.txt and subject_train.txt
-3. Assigns descriptive names to variables in files.
+3.    Assigns descriptive names to variables in files.
 	-         convert activity codes in consolidated ydata to factor and assign labels from activity_labels.txt
-4. Combines Subject, activity, and Xdata dataframes.
+4.    Combines Subject, activity, and Xdata dataframes.
 	-            convert the variable names to readable format.
-5. Summarize the datat 
+5.    Summarize the datat 
 	-	Calculates the means of all the measures by subject and activity 
 	-	Create the tiday dataset. 
 	-	Writes the data.frame to local drive in the working directory as csv file.
----
+
