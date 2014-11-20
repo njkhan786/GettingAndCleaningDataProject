@@ -1,0 +1,75 @@
+subject,,,,,,,,,,,,,
+activity,,,,,,,,,,,,,
+tBodyAccMeanX,t,Body,Acc,Mean,X,,,time,x-axis,,acceleration,,Body acceleration Mean x-axis time- variable
+tBodyAccMeanY,t,Body,Acc,Mean,Y,,,time,y-axis,,acceleration,,Body acceleration Mean y-axis time- variable
+tBodyAccMeanZ,t,Body,Acc,Mean,Z,,,time,z-axis,,acceleration,,Body acceleration Mean z-axis time- variable
+tBodyAccStdDevX,t,Body,Acc,StdDev,X,,,time,x-axis,Standard Deviation,acceleration,,Body acceleration Standard Deviation x-axis time- variable
+tBodyAccStdDevY,t,Body,Acc,StdDev,Y,,,time,y-axis,Standard Deviation,acceleration,,Body acceleration Standard Deviation y-axis time- variable
+tBodyAccStdDevZ,t,Body,Acc,StdDev,Z,,,time,z-axis,Standard Deviation,acceleration,,Body acceleration Standard Deviation z-axis time- variable
+tGravityAccMeanX,t,Gravity,Acc,Mean,X,,,time,x-axis,,acceleration,,Gravity acceleration Mean x-axis time- variable
+tGravityAccMeanY,t,Gravity,Acc,Mean,Y,,,time,y-axis,,acceleration,,Gravity acceleration Mean y-axis time- variable
+tGravityAccMeanZ,t,Gravity,Acc,Mean,Z,,,time,z-axis,,acceleration,,Gravity acceleration Mean z-axis time- variable
+tGravityAccStdDevX,t,Gravity,Acc,StdDev,X,,,time,x-axis,Standard Deviation,acceleration,,Gravity acceleration Standard Deviation x-axis time- variable
+tGravityAccStdDevY,t,Gravity,Acc,StdDev,Y,,,time,y-axis,Standard Deviation,acceleration,,Gravity acceleration Standard Deviation y-axis time- variable
+tGravityAccStdDevZ,t,Gravity,Acc,StdDev,Z,,,time,z-axis,Standard Deviation,acceleration,,Gravity acceleration Standard Deviation z-axis time- variable
+tBodyAccJerkMeanX,t,Body,Acc,Jerk,Mean,X,,time,x-axis,,acceleration,,Body acceleration Jerk Mean x-axis time- variable
+tBodyAccJerkMeanY,t,Body,Acc,Jerk,Mean,Y,,time,y-axis,,acceleration,,Body acceleration Jerk Mean y-axis time- variable
+tBodyAccJerkMeanZ,t,Body,Acc,Jerk,Mean,Z,,time,z-axis,,acceleration,,Body acceleration Jerk Mean z-axis time- variable
+tBodyAccJerkStdDevX,t,Body,Acc,Jerk,StdDev,X,,time,x-axis,Standard Deviation,acceleration,,Body acceleration Jerk Standard Deviation x-axis time- variable
+tBodyAccJerkStdDevY,t,Body,Acc,Jerk,StdDev,Y,,time,y-axis,Standard Deviation,acceleration,,Body acceleration Jerk Standard Deviation y-axis time- variable
+tBodyAccJerkStdDevZ,t,Body,Acc,Jerk,StdDev,Z,,time,z-axis,Standard Deviation,acceleration,,Body acceleration Jerk Standard Deviation z-axis time- variable
+tBodyGyroMeanX,t,Body,Gyro,Mean,X,,,time,x-axis,,,,Body Gyro Mean x-axis time- variable
+tBodyGyroMeanY,t,Body,Gyro,Mean,Y,,,time,y-axis,,,,Body Gyro Mean y-axis time- variable
+tBodyGyroMeanZ,t,Body,Gyro,Mean,Z,,,time,z-axis,,,,Body Gyro Mean z-axis time- variable
+tBodyGyroStdDevX,t,Body,Gyro,StdDev,,X,,time,x-axis,Standard Deviation,,,Body  Gyro Standard Deviation x-axis time- variable
+tBodyGyroStdDevY,t,Body,Gyro,StdDev,,Y,,time,y-axis,Standard Deviation,,,Body  Gyro Standard Deviation y-axis time- variable
+tBodyGyroStdDevZ,t,Body,Gyro,StdDev,,Z,,time,z-axis,Standard Deviation,,,Body  Gyro Standard Deviation z-axis time- variable
+tBodyGyroJerkMeanX,t,Body,Gyro,Jerk,Mean,X,,time,x-axis,,,,Body Gyro Jerk Mean x-axis time- variable
+tBodyGyroJerkMeanY,t,Body,Gyro,Jerk,Mean,Y,,time,y-axis,,,,Body Gyro Jerk Mean y-axis time- variable
+tBodyGyroJerkMeanZ,t,Body,Gyro,Jerk,Mean,Z,,time,z-axis,,,,Body Gyro Jerk Mean z-axis time- variable
+tBodyGyroJerkStdDevX,t,Body,Gyro,Jerk,StdDev,X,,time,x-axis,Standard Deviation,,,Body Gyro Jerk Standard Deviation x-axis time- variable
+tBodyGyroJerkStdDevY,t,Body,Gyro,Jerk,StdDev,Y,,time,y-axis,Standard Deviation,,,Body Gyro Jerk Standard Deviation y-axis time- variable
+tBodyGyroJerkStdDevZ,t,Body,Gyro,Jerk,StdDev,Z,,time,z-axis,Standard Deviation,,,Body Gyro Jerk Standard Deviation z-axis time- variable
+tBodyAccMagMean,t,Body,Acc,Mag,Mean,,,time,,,acceleration,Magnitude,Body acceleration Magnitude Mean  time- variable
+tBodyAccMagStdDev,t,Body,Acc,Mag,StdDev,,,time,,Standard Deviation,acceleration,Magnitude,Body acceleration Magnitude StdDev  time- variable
+tGravityAccMagMean,t,Gravity,Acc,Mag,Mean,,,time,,,acceleration,Magnitude,Gravity acceleration Magnitude Mean  time- variable
+tGravityAccMagStdDev,t,Gravity,Acc,Mag,StdDev,,,time,,Standard Deviation,acceleration,Magnitude,Gravity acceleration Magnitude Standard Deviation  time- variable
+tBodyAccJerkMagMean,t,Body,Acc,Jerk,Mag,Mean,,time,,,acceleration,Magnitude,Body acceleration Jerk Magnitude Mean time- variable
+tBodyAccJerkMagStdDev,t,Body,Acc,Jerk,Mag,StdDev,,time,,Standard Deviation,acceleration,Magnitude,Body acceleration Jerk Magnitude Standard Deviation time- variable
+tBodyGyroMagMean,t,Body,Gyro,Mag,Mean,,,time,,,,Magnitude,Body Gyro Magnitude Mean  time- variable
+tBodyGyroMagStdDev,t,Body,Gyro,Mag,StdDev,,,time,,Standard Deviation,,Magnitude,Body Gyro Magnitude Standard Deviation  time- variable
+tBodyGyroJerkMagMean,t,Body,Gyro,Jerk,Mag,Mean,,time,,,,Magnitude,Body Gyro Jerk Magnitude Mean time- variable
+tBodyGyroJerkMagStdDev,t,Body,Gyro,Jerk,Mag,StdDev,,time,,Standard Deviation,,Magnitude,Body Gyro Jerk Magnitude Standard Deviation time- variable
+fBodyAccMeanX,f,Body,Acc,Mean,X,,,frequency,x-axis,,acceleration,,Body acceleration Mean x-axis frequency- variable
+fBodyAccMeanY,f,Body,Acc,Mean,Y,,,frequency,y-axis,,acceleration,,Body acceleration Mean y-axis frequency- variable
+fBodyAccMeanZ,f,Body,Acc,Mean,Z,,,frequency,z-axis,,acceleration,,Body acceleration Mean z-axis frequency- variable
+fBodyAccStdDevX,f,Body,Acc,StdDev,,X,,frequency,x-axis,Standard Deviation,acceleration,,Body acceleration Standard Deviation x-axis frequency- variable
+fBodyAccStdDevY,f,Body,Acc,StdDev,,Y,,frequency,y-axis,Standard Deviation,acceleration,,Body acceleration Standard Deviation y-axis frequency- variable
+fBodyAccStdDevZ,f,Body,Acc,StdDev,,Z,,frequency,z-axis,Standard Deviation,acceleration,,Body acceleration Standard Deviation z-axis frequency- variable
+fBodyAccJerkMeanX,f,Body,Acc,Jerk,Mean,X,,frequency,x-axis,,acceleration,,Body acceleration Jerk Mean x-axis frequency- variable
+fBodyAccJerkMeanY,f,Body,Acc,Jerk,Mean,Y,,frequency,y-axis,,acceleration,,Body acceleration Jerk Mean y-axis frequency- variable
+fBodyAccJerkMeanZ,f,Body,Acc,Jerk,Mean,Z,,frequency,z-axis,,acceleration,,Body acceleration Jerk Mean z-axis frequency- variable
+fBodyAccJerkStdDevX,f,Body,Acc,Jerk,StdDev,X,,frequency,x-axis,Standard Deviation,acceleration,,Body acceleration Jerk Standard Deviation x-axis frequency- variable
+fBodyAccJerkStdDevY,f,Body,Acc,Jerk,StdDev,Y,,frequency,y-axis,Standard Deviation,acceleration,,Body acceleration Jerk Standard Deviation y-axis frequency- variable
+fBodyAccJerkStdDevZ,f,Body,Acc,Jerk,StdDev,Z,,frequency,z-axis,Standard Deviation,acceleration,,Body acceleration Jerk Standard Deviation z-axis frequency- variable
+fBodyGyroMeanX,f,Body,Gyro,Mean,X,,,frequency,x-axis,,,,Body Gyro Mean x-axis frequency- variable
+fBodyGyroMeanY,f,Body,Gyro,Mean,Y,,,frequency,y-axis,,,,Body Gyro Mean y-axis frequency- variable
+fBodyGyroMeanZ,f,Body,Gyro,Mean,Z,,,frequency,z-axis,,,,Body Gyro Mean z-axis frequency- variable
+fBodyGyroStdDevX,f,Body,Gyro,StdDev,X,,,frequency,x-axis,Standard Deviation,,,Body Gyro Standard Deviation x-axis frequency- variable
+fBodyGyroStdDevY,f,Body,Gyro,StdDev,Y,,,frequency,y-axis,Standard Deviation,,,Body Gyro Standard Deviation y-axis frequency- variable
+fBodyGyroStdDevZ,f,Body,Gyro,StdDev,Z,,,frequency,z-axis,Standard Deviation,,,Body Gyro Standard Deviation z-axis frequency- variable
+fBodyAccMagMean,f,Body,Acc,Mag,Mean,,,frequency,,,acceleration,Magnitude,Body acceleration Magnitude Mean  frequency- variable
+fBodyAccMagStdDev,f,Body,Acc,Mag,StdDev,,,frequency,,Standard Deviation,acceleration,Magnitude,Body acceleration Magnitude Standard Deviation  frequency- variable
+fBodyBodyAccJerkMagMean,f,Body,Body,Acc,Jerk,Mag,Mean,frequency,,,acceleration,Magnitude,Body Body acceleration Jerk Magnitude Mean frequency- variable
+fBodyBodyAccJerkMagStdDev,f,Body,Body,Acc,Jerk,Mag,StdDev,frequency,,Standard Deviation,acceleration,Magnitude,Body Body acceleration Jerk Magnitude Standard Deviation frequency- variable
+fBodyBodyGyroMagMean,f,Body,Body,Gyro,Mag,Mean,,frequency,,,,Magnitude,Body Body Gyro  Magnitude Mean frequency- variable
+fBodyBodyGyroMagStdDev,f,Body,Body,Gyro,Mag,StdDev,,frequency,,Standard Deviation,,Magnitude,Body Body Gyro Magnitude Standard Deviation  frequency- variable
+fBodyBodyGyroJerkMagMean,f,Body,Body,Gyro,Jerk,Mag,Mean,frequency,,,,Magnitude,Body Body Gyro Jerk Magnitude Mean frequency- variable
+fBodyBodyGyroJerkMagStdDev,f,Body,Body,Gyro,Jerk,Mag,StdDev,frequency,,Standard Deviation,,Magnitude,Body Body Gyro Jerk Magnitude Standard Deviation frequency- variable
+angletBodyAccMeangravity,angle,t,Body,Acc,Mean,gravity,,time,,,acceleration,,angle Body acceleration Mean  gravity time- variable
+angletBodyAccJerkMeangravityMean,angle,t,Body,Acc,Jerk,Mean,gravityMean,time,,,acceleration,,Body acceleration Jerk Mean gravityMean time- variable
+angletBodyGyroMeangravityMean,angle,t,Body,Gyro,Mean,gravityMean,,time,,,,,angle Body Gyro Mean  gravityMean time- variable
+angletBodyGyroJerkMeangravityMean,angle,t,Body,Gyro,Jerk,Mean,gravityMean,time,,,,,angle Body Gyro Jerk Mean gravityMean time- variable
+angleXgravityMean,angle,X,gravity,Mean,,,,,x-axis,,,,angle gravity Mean   x-axis - variable
+angleYgravityMean,angle,Y,gravity,Mean,,,,,z-axis,,,,angle gravity Mean   z-axis - variable
+angleZgravityMean,angle,Z,gravity,Mean,,,,,z-axis,,,,angle gravity Mean   z-axis - variable
