@@ -1,14 +1,14 @@
 #   Getting and Cleaning Data - Project 
 ##  README.MD
 ---
-he objective of this project is to develop a process to extract and transform the available data into tidy dataset. 
+The objective of this project is to develop a process to extract and transform the available data into tidy dataset. 
 The end product of the process i.e. the tidy data has to follow the principles of tidy data laid out by Hadley Wickham.
 The available dataset was collected during the experiment "Human Activity Recognition Using Smartphones".
 During the experiment the data was collected from all the subjects divided into two groups "training" and "test". 
 Several datasets were made available in a zip file.
 ### Available data
-Following are the details of the available datasets:
-link to locations: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+>Following are the details of the available datasets:
+>link to locations: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 +	Root folder : UCI HAR Dataset
 	-			  README.TXT (Description of experiment and data available)
 	-			  features.txt (List of all variables names available )
@@ -25,11 +25,11 @@ link to locations: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles
 		*		subject_train.txt (observed subjects in training group)  
 
 ---
-The program developed in a file run_analysis.R.
-Prerequisite: Package("dplyr") must be installed for this program to achieve it's objective.
+>The program developed in a file run_analysis.R.
+>Prerequisite: Package("dplyr") must be installed for this program to achieve it's objective.
 		
-This program extracts and transforms the data from experiment and creates one tidy dataset (tidy_data.csv) in the working directory.
-  This program has five main parts: 
+>This program extracts and transforms the data from experiment and creates one tidy dataset (tidy_data.csv) in the working directory.
+>  This program has five main parts: 
 1. 	Downloads and read all the required files into data frames
 2.  Consolidates Data
 	-           Consolidate X_test.txt and X_train.txt
