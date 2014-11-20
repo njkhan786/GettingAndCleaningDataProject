@@ -14,7 +14,7 @@ This file contains the mean of 73 measurements out of 561. These measurements ar
 There are 180 observations and 73 measurements in this data file. 
 
 Dimensions : rows: 180; columns: 75 
----
+
 | Variables 						 | Data Type | Description                                                                  | 
 | ---------------------------------- | --------- | ---------------------------------------------------------------------------- |
 | subject     						 | Int       | The id of the 30 volunteers who participated in the experiment               |
@@ -95,3 +95,4 @@ Dimensions : rows: 180; columns: 75
 |angleXgravityMean                   | numeric   | angle gravity Mean   x-axis - variable                                       |
 |angleYgravityMean                   | numeric   | angle gravity Mean   z-axis - variable                                       |
 |angleZgravityMean                   | numeric   | angle gravity Mean   z-axis - variable                                       |
+                                                                                                                               
