@@ -1,5 +1,5 @@
 #Getting and Cleaning Data - Project
-##Data Dictionary - tidy_data.csv
+##Data Dictionary - tidy_data.txt
 
 This dataset is a summarised tidy version of data captured from the smart phone (Samsung Galaxy S II) which
 were used by 30 volunteers (subjects). These subjects performed various physical activities such as WALKING, 

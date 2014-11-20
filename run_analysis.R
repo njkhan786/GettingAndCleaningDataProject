@@ -19,11 +19,18 @@
 #        and create the tiday data set. 
 #        write the data.frame to local drive in the working directory as csv file.
 ##############################################################################################
-#rm(list=ls())      # remove all objects in the current environment
 ###
 ### Part 1: Downloading the zip file and reading the required files.
 ###
-install.packages("dplyr")
+packages <- c("dplyr")
+if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
+  if (packageVersion("devtools") < 1.6) {
+    install.packages("devtools")
+  }
+  devtools::install_github("hadley/lazyeval")
+  devtools::install_github("hadley/dplyr")
+  library(dplyr)  
+}
     fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
     temporarylink <- tempfile(tmpdir=getwd())       # returns a vector of strings which can be used  as names for temporary file
     download.file(fileUrl,temporarylink)
@@ -94,7 +101,7 @@ install.packages("dplyr")
  
     tidydata <- data.frame(subjectactivitydata %>% group_by(subject,activity) %>% summarise_each(funs(mean)))
 #     write the data.frame to local drive in the working directory as csv file.
-      write.csv(tidydata,file="tidy_data.csv",row.names=FALSE)
+      write.table(tidydata,file="tidy_data.txt",row.names=FALSE)
 ###
 ###   The end
 ###

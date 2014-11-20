@@ -45,5 +45,5 @@ link to locations: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles
 5.    Summarize the datat 
 	-	Calculates the means of all the measures by subject and activity 
 	-	Create the tiday dataset. 
-	-	Writes the data.frame to local drive in the working directory as csv file.
+	-	Writes the data.frame to local drive in the working directory as txt file.
 
